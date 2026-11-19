@@ -1,0 +1,41 @@
+# ===== Maven / Java build output =====
+target/
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+# ===== IDE and editor files =====
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+
+# ===== Secrets and local configuration (NEVER commit) =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.properties
+*-local.properties
+
+# ===== Test execution artifacts =====
+test-output/
+allure-results/
+allure-report/
+reports/
+screenshots/
+logs/
+*.log
+
+# ===== AI working files (raw prompts/responses may contain sensitive data) =====
+ai-output/
+
+# ===== OS files =====
+Thumbs.db
+Desktop.ini
+.DS_Store
